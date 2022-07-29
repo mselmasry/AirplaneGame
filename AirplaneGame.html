@@ -125,6 +125,7 @@
 			}
 
 			drawPlayer();
+			drawMissiles();
 
 		}
 
@@ -142,8 +143,8 @@
 		{
 			setTimeout(gameLoop, 100);
 			drawPlayer();
-			enemiesDown(1);
-			moveMissiles(1);
+			enemiesDown(2);
+			moveMissiles(10);
 			drawMissiles();
 		}
 		gameLoop();
